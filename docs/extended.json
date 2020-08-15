@@ -1,7 +1,7 @@
 {
    "info":{
-      "url_png_icon_64x64":"http(s) url to pool icon",
-      "url_png_logo":"http(s) url to pool logo",
+      "url_png_icon_64x64":"https://raw.githubusercontent.com/asnakep/repo/master/docs/ourobor.jpg",
+      "url_png_logo":"https://raw.githubusercontent.com/asnakep/repo/master/docs/ourobor.jpg",
       "social":{
          "twitter_handle":"https://twitter.com/adasnakepool",
          "telegram_handle":"https://t.me/channel_adasnakepool"
