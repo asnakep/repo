@@ -4,7 +4,7 @@
         "url_png_logo": "http(s) url to pool logo",
         "social": {
             "twitter_handle": "AdapoolsO",
-            "telegram_handle": "adapools_ops"
+            "telegram_handle": "adapools_ops",
 },            
      "about": {
        "server": "Cardano StakePool Infrastructure Running 24/7/365 on Reliables NixOs Servers",
