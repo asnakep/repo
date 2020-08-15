@@ -3,8 +3,8 @@
       "url_png_icon_64x64":"https://raw.githubusercontent.com/asnakep/repo/master/docs/ourobor.jpg",
       "url_png_logo":"https://raw.githubusercontent.com/asnakep/repo/master/docs/ourobor.jpg",
       "social":{
-         "twitter_handle":"https://twitter.com/adasnakepool",
-         "telegram_handle":"https://t.me/channel_adasnakepool"
+         "twitter_handle":"adasnakepool",
+         "telegram_handle":"channel_adasnakepool"
       },
       "about":{
          "server":"Cardano StakePool Infrastructure Running 24/7/365 on Reliables NixOs Servers",
