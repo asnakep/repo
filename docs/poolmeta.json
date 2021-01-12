@@ -3,5 +3,5 @@
 	"ticker": "SNAKE",
 	"description": "Cloud Based StakePool Infrastructure Running 24/7/365 on Highly Reliable and Secured NixOS Servers",
 	"homepage": "https://www.adasnakepool.com",
-	"extended": [ "https://asnakep.github.io/repo/extended.json", "https://asnakep.github.io/repo/pooltool_ext.json" ]
+	"extended": "https://asnakep.github.io/repo/extended.json"
 }
