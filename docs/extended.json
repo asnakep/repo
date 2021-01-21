@@ -1,0 +1,44 @@
+{
+	"itn": {
+		"owner": "ed25519_pk1uh7r2z8aypk0gywd34pkvnyksjhkwjhaxsu6mq5n2pk8v09va6xs0amd9h",
+		"witness": "ed25519_sig1nw8phsk0xrqehku8wc3gk7ncd93khfy8wrnx95cvwepl38fg49z54czgxnhvmtmzfltg2r9y03jpa63f0urqk4fw399t7cyygzfykrsmdpvv9"
+	},
+	"info": {
+		"url_png_icon_64x64": "https://asnakep.github.io/repo/Snake-icon_64x64.png",
+		"url_png_logo": "https://asnakep.github.io/repo/Snake-icon.png",
+		"social": {
+			"twitter_handle": "adasnakepool",
+			"telegram_handle": "channel_adasnakepool"
+		},
+		"about": {
+			"server": "Cloud Based StakePool Infrastructure Running 24/7/365 on Highly Reliable and Secured NixOS Servers",
+			"my-pool-ids": {
+				"0": "342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28"
+			},
+			"adapools_ext": {
+				"prometheus": {
+					"0": {
+						"name": "RELAY 1",
+						"type": "relay",
+						"key": "bbd53ffa96f2f06f53f2c64f6b2d745e"
+					},
+					"1": {
+						"name": "RELAY 2",
+						"type": "relay",
+						"key": "16d5396edcb9fd468174d14bd7d4b0ed"
+					},
+					"2": {
+						"name": "RELAY 3",
+						"type": "relay",
+						"key": "59b3c8fd01d45a45da8fda6a8053d224"
+					},
+					"3": {
+						"name": "SNAKE Blocks Producer",
+						"type": "bp",
+						"key": "350b268e4accb9fcbfac2a88be706161"
+					}
+				}
+			}
+		}
+	}
+}
