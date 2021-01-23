@@ -24,11 +24,6 @@
                   "key":"16d5396edcb9fd468174d14bd7d4b0ed"
                },
                "2":{
-                  "name":"RELAY 3",
-                  "type":"relay",
-                  "key":"59b3c8fd01d45a45da8fda6a8053d224"
-               },
-               "3":{
                   "name":"SNAKE Blocks Producer",
                   "type":"bp",
                   "key":"350b268e4accb9fcbfac2a88be706161"
