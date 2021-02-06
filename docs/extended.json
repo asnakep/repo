@@ -14,19 +14,9 @@
          "adapools_ext":{
             "prometheus":{
                "0":{
-                  "name":"RELAY 1",
-                  "type":"relay",
-                  "key":"bbd53ffa96f2f06f53f2c64f6b2d745e"
-               },
-               "1":{
-                  "name":"RELAY 2",
-                  "type":"relay",
-                  "key":"16d5396edcb9fd468174d14bd7d4b0ed"
-               },
-               "2":{
-                  "name":"SNAKE Blocks Producer",
+                  "name":"SNAKE",
                   "type":"bp",
-                  "key":"350b268e4accb9fcbfac2a88be706161"
+                  "key":"811c07fb4610889631af46a47b3fba24"
                }
             }
          }
