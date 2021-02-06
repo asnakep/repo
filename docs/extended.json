@@ -15,7 +15,7 @@
             "prometheus":{
                "0":{
                   "name":"SNAKE",
-                  "type":"Core",
+                  "type":"bp",
                   "key":"811c07fb4610889631af46a47b3fba24"
                }
             }
