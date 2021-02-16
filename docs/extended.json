@@ -1,25 +1,16 @@
 {
-"info":{
-      "url_png_icon_64x64":"https://asnakep.github.io/repo/Snake-icon_64x64.png",
-      "url_png_logo":"https://asnakep.github.io/repo/Snake-icon.png",
-      "social":{
-         "twitter_handle":"adasnakepool",
-         "telegram_handle":"channel_adasnakepool"
-      },
-      "about":{
-         "server":"Cardano StakePool Running, Monitored and Kept up to date 24/7/365 on Highly Reliable and Secured NixOS Servers.",
-         "my-pool-ids":{
-            "0":"342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28"
-         },
-         "adapools_ext":{
-            "prometheus":{
-               "0":{
-                  "name":"SNAKE",
-                  "type":"bp",
-                  "key":"811c07fb4610889631af46a47b3fba24"
-               }
-            }
-         }
-      }
-   }
+	"info": {
+		"url_png_icon_64x64": "https://asnakep.github.io/repo/Snake-icon_64x64.png",
+		"url_png_logo": "https://asnakep.github.io/repo/Snake-icon.png",
+		"social": {
+			"twitter_handle": "adasnakepool",
+			"telegram_handle": "channel_adasnakepool"
+		},
+		"about": {
+			"server": "Cardano StakePool Running, Monitored and Kept up to date 24/7/365 on Highly Reliable and Secured NixOS Servers.",
+			"my-pool-ids": {
+				"0": "342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28"
+			}
+		}
+	}
 }
