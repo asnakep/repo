@@ -2,6 +2,6 @@
   "name": "SN₳KE",
   "ticker": "SNAKE",
   "description": "SN₳KE is a Single and Charitable Stake Pool Running 24x7x365 on NixOS Servers. Join us to Claim Tokens from TosiDrop.io. Pool Margin 0% Forever. Donations will go to MSF.org. Telegram t.me/channel_adasnakepool",
-  "homepage": "snakepool.link",
+  "homepage": "http://snakepool.link",
   "extended": "https://asnakep.github.io/repo/extended.json"
 }
