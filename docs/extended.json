@@ -8,10 +8,15 @@
     "url_png_logo": "https://asnakep.github.io/repo/Snake-icon_64x64.png",
     "social": {
       "twitter_handle": "adasnakepool",
-      "telegram_handle": "channel_adasnakepool"
+      "telegram_handle": "channel_adasnakepool",
+      "discord_handle": "manuelsnake",
+      "github_handle": "asnakep"
     },
     "about": {
       "server": "🐍 SN₳KE is your 24/7/365 Single and Highly Reliable Stake Pool ✅. Join us to claim cool tokens from TosiDrop.io. Enjoy a 0% pool margin and a fixed cost of 170₳ forever 💚 Connect with us on Telegram at t.me/channel_adasnakepool to receive all operational information."
+    },
+    "my-pool-ids": {
+      "0": "342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28"
     }
   }
 }
