@@ -1,0 +1,12 @@
+03 of March 2024
+
+Dear HODLA Team,
+
+I'm Manuel from stakepool SNAKE - snakepool.link. I'm reaching out to you because members of the "Cardano Stakepool Best Practices" Telegram Group - t.me/CardanoStakePoolWorkgroup 
+have noticed excessive delays in the propagation time of your blocks on both HODLA and HODL₳. 
+These delays are causing several height battles and resulting in lost blocks for other stakepools. Additionally, you have several orphaned blocks due to height battles (as observed in epoch 470).
+
+It would be greatly appreciated if you could review your configuration. Please don't hesitate to reach out to us on the Best Practices channel if needed.
+
+Have a great day,
+Manuel
