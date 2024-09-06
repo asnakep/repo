@@ -76,7 +76,7 @@
   },
   "body": {
     "bio": {
-      "@value": "Empty"
+      "@value": ""
     },
     "doNotList": {
       "@value": "false"
@@ -85,7 +85,7 @@
       "@value": "econcotelli@proton.me"
     },
     "givenName": {
-      "@value": "Emanuele Concotelli"
+      "@value": "Manuel [SNAKE]"
     },
     "image": {
       "@type": "ImageObject",
