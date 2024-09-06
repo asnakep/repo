@@ -1,0 +1,155 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "givenName": "CIP119:givenName",
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "doNotList": "CIP119:doNotList",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a4010103272006215820bc96ec2ba58266a5a522f5b140ab6f266f92d3820ba87734a73c3c27dfc15cdb"
+        },
+        "signature": {
+          "@value": "845846a2012767616464726573735839015fdef75747ad06c95a13b1c9c03a546523cd9bc5b8895d9bab88146579cb40518a3901bfccf886d146718214f4b1c1f3872925517ab9500ba166686173686564f45844566572696679204452657020647265703161786a63677367683970633338736734676e6a677632736370647a7535666a666b6d6736706135673965356837646b7175736d5840fc96dbf05edfab8ac5bd42d3b2a3f9db0bb02fb85818d4079de973e541622f11f3115eb0271c0f33b6ef6ea1c7ede92a486324f1e867961e5b09bc6768a2260c"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "Empty"
+    },
+    "doNotList": {
+      "@value": "false"
+    },
+    "email": {
+      "@value": "econcotelli@proton.me"
+    },
+    "givenName": {
+      "@value": "Emanuele Concotelli"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmcR8sojtYdKTQ2nS2FqYb6ovRxvrQtHsLNGxwmmnNFaPD",
+      "sha256": "94a173903db73cc97fce1e471f85763ed7d19bef4552d9153a136b00c3c56548"
+    },
+    "motivations": {
+      "@value": "My motivation to become a DRep stems from a deep commitment to the principles of decentralization and self-governance. Cardano’s on-chain governance is a groundbreaking technology in giving power back to the community, and I want to be part of shaping that evolution. As someone who has been actively involved in Cardano’s ecosystem and the operator of SNAKE Stakepool, I’ve seen the immense potential of distributed networks to foster transparency, fairness, and innovation.\n\nBeing a DRep would allow me to use my experience to bridge the gap between technical development and community needs. I want to help Cardano thrive as a self-sustaining ecosystem, driven by its users, and create a governance model that other blockchains aspire to follow."
+    },
+    "objectives": {
+      "@value": "Hi, I’m Manuel, operator of SNAKE Stakepool on the Cardano network. My passion for technology, distributed networks, and cryptography led me to blockchain in 2017. After years in IT, focusing on system administration and coding, I discovered Cardano in 2019. Its peer-reviewed research and proof-of-stake protocol inspired me to launch SNAKE Pool. I’m dedicated to providing reliable, transparent staking services and contributing to Cardano's mission of decentralization and financial inclusivity.\n\nI actively participate in Cardano’s on-chain governance initiatives, supporting the evolution of a decentralized and self-sustaining ecosystem that empowers its community.\n"
+    },
+    "paymentAddress": {
+      "@value": "Baixada de Briz 16 - 2º3a"
+    },
+    "qualifications": {
+      "@value": "25 years in IT. 12 of them as Business Intelligence Consultant for Big food company.\n"
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Linkedin"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/in/cardano-stakepool-sn%E2%82%B3ke-93a75938/"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/adasnakepool"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Certificate Cardano Developer"
+        },
+        "uri": {
+          "@value": "https://www.credly.com/badges/68b7bce9-9c15-4af4-9fe0-058f608d1ff2"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Stakepool Telegram Channel"
+        },
+        "uri": {
+          "@value": "https://t.me/channel_adasnakepool"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Adastat.net"
+        },
+        "uri": {
+          "@value": "https://adastat.net/pools/342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28"
+        }
+      }
+    ]
+  }
+}
