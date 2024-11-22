@@ -1,1 +1,1 @@
-# SN₳KE Stakepool ONE Metadata repository
+# SN₳KE Stakepools Metadata repository
