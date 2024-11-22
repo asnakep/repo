@@ -1,0 +1,21 @@
+{
+  "itn": {
+    "owner": "ed25519_pk1uh7r2z8aypk0gywd34pkvnyksjhkwjhaxsu6mq5n2pk8v09va6xs0amd9h",
+    "witness": "ed25519_sig1nw8phsk0xrqehku8wc3gk7ncd93khfy8wrnx95cvwepl38fg49z54czgxnhvmtmzfltg2r9y03jpa63f0urqk4fw399t7cyygzfykrsmdpvv9"
+  },
+  "info": {
+    "url_png_icon_64x64": "https://asnakep.github.io/repo/Snake-icon_64x64.png",
+    "url_png_logo": "https://asnakep.github.io/repo/Snake-icon_64x64.png",
+    "social": {
+      "twitter_handle": "adasnakepool",
+      "telegram_handle": "channel_adasnakepool",
+      "github_handle": "asnakep"
+    },
+    "about": {
+      "server": "🐍 SN₳KE is your 24/7/365 Reliable Pioneer Stake Pool ✅ Enjoy a 0% pool margin and a fixed cost of 170₳ forever ∞ Connect with us on Telegram at t.me/channel_adasnakepool. DRep: drep1axjcgsgh9pc38sg4gnjgv2scpdzu5fjfkmg6pa5g9e5h7dkqusm - Tosidrop.io CNTs."
+    },
+    "my-pool-ids": {
+      "0": "342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28"
+    }
+  }
+}
