@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -51,39 +52,53 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": "blake2b-256",
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
   "body": {
-    "doNotList": "false",
-    "givenName": "Manuel [SNAKE]",
-    "motivations": "My motivation to become a DRep stems from a deep commitment to the principles of decentralization and self-governance. Cardano’s on-chain governance is a groundbreaking technology in giving power back to the community, and I want to be part of shaping that evolution. As someone who has been actively involved in Cardano’s ecosystem and the operator of SNAKE Stakepool, I’ve seen the immense potential of distributed networks to foster transparency, fairness, and innovation.\n\nBeing a DRep would allow me to use my experience to bridge the gap between technical development and community needs. I want to help Cardano thrive as a self-sustaining ecosystem, driven by its users, and create a governance model that other blockchains aspire to follow.",
-    "objectives": "Hi, I’m Manuel, operator of SNAKE Stakepool on the Cardano network. My passion for technology, distributed networks, and cryptography led me to blockchain in 2017. After years in IT, focusing on system administration and coding, I discovered Cardano in 2019. Its peer-reviewed research and proof-of-stake protocol inspired me to launch SNAKE Pool. I’m dedicated to providing reliable, transparent staking services and contributing to Cardano's mission of decentralization and financial inclusivity.\n\nI actively participate in Cardano’s on-chain governance initiatives, supporting the evolution of a decentralized and self-sustaining ecosystem that empowers its community.\n",
-    "paymentAddress": "addr1q90aaa6hg7ksdj26zwcunsp623jj8nvmckugjhvm4wypgeteedq9rz3eqxlue7yx69r8rqs57jcuruu89yj4z74e2q9seqdyqr",
-    "qualifications": "25 years in IT. 12 of them as Business Intelligence Consultant for Big food company.\n",
+    "doNotList": false,
+    "givenName": {
+      "@value": "Manuel [SNAKE]"
+    },
+    "motivations": {
+      "@value": "My motivation to become a DRep stems from a deep commitment to the principles of decentralization and self-governance. Cardano’s on-chain governance is a groundbreaking technology in giving power back to the community, and I want to be part of shaping that evolution. As someone who has been actively involved in Cardano’s ecosystem and the operator of SNAKE Stakepool, I’ve seen the immense potential of distributed networks to foster transparency, fairness, and innovation.\n\nBeing a DRep would allow me to use my experience to bridge the gap between technical development and community needs. I want to help Cardano thrive as a self-sustaining ecosystem, driven by its users, and create a governance model that other blockchains aspire to follow."
+    },
+    "objectives": {
+      "@value": "Hi, I’m Manuel, operator of SNAKE Stakepool on the Cardano network. My passion for technology, distributed networks, and cryptography led me to blockchain in 2017. After years in IT, focusing on system administration and coding, I discovered Cardano in 2019. Its peer-reviewed research and proof-of-stake protocol inspired me to launch SNAKE Pool. I’m dedicated to providing reliable, transparent staking services and contributing to Cardano's mission of decentralization and financial inclusivity.\n\nI actively participate in Cardano’s on-chain governance initiatives, supporting the evolution of a decentralized and self-sustaining ecosystem that empowers its community.\n"
+    },
+    "paymentAddress": {
+      "@value": "addr1q90aaa6hg7ksdj26zwcunsp623jj8nvmckugjhvm4wypgeteedq9rz3eqxlue7yx69r8rqs57jcuruu89yj4z74e2q9seqdyqr"
+    },
+    "qualifications": {
+      "@value": "25 years in IT. 12 of them as Business Intelligence Consultant for Big food company.\n"
+    },
     "references": [
       {
         "@type": "Link",
-        "label": "Linkedin",
-        "uri": "https://www.linkedin.com/in/cardano-stakepool-sn%E2%82%B3ke-93a75938/"
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/adasnakepool"
+        }
       },
       {
         "@type": "Link",
-        "label": "X",
-        "uri": "https://x.com/adasnakepool"
-      },
-      {
-        "@type": "Link",
-        "label": "Certificate Cardano Developer",
-        "uri": "https://www.credly.com/badges/68b7bce9-9c15-4af4-9fe0-058f608d1ff2"
-      },
-      {
-        "@type": "Identity",
-        "label": "Stakepool Telegram Channel",
-        "uri": "https://t.me/channel_adasnakepool"
+        "label": {
+          "@value": "Certificate Cardano Developer"
+        },
+        "uri": {
+          "@value": "https://www.credly.com/badges/68b7bce9-9c15-4af4-9fe0-058f608d1ff2"
+        }
       },
       {
         "@type": "Identity",
-        "label": "Pool owner DREP Screenshot",
-        "uri": "https://github.com/asnakep/repo/blob/master/docs/2024-09-06%2017%2046%2021.png"
+        "label": {
+          "@value": "Stakepool Telegram Channel"
+        },
+        "uri": {
+          "@value": "https://t.me/channel_adasnakepool"
+        }
       }
     ]
   }
