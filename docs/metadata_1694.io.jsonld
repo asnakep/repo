@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "givenName": "CIP119:givenName",
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "doNotList": "CIP119:doNotList",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a40101032720062158203489f25128e45aad18723bbdcca56dd67a1e3ddc8e15db8cda9f812d7204028c"
+        },
+        "signature": {
+          "@value": "845829a201276761646472657373581ce9a5844117287113c11544e4862a180b45ca2649b6d1a0f6882e697fa166686173686564f45844566572696679204452657020647265703161786a63677367683970633338736734676e6a677632736370647a7535666a666b6d6736706135673965356837646b7175736d584044dee288c21d8f290bbae8cb3da88443f030c1bc4122a153802c15e11ba88c60424458886001521b091fa56a4fb59ff1f2557dfe67e3d5231cf82fe24123f709"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": {
+      "@value": "false"
+    },
+    "givenName": {
+      "@value": "Manuel [SNAKE]"
+    },
+    "motivations": {
+      "@value": "My motivation to become a DRep stems from a deep commitment to the principles of decentralization and self-governance. Cardano’s on-chain governance is a groundbreaking technology in giving power back to the community, and I want to be part of shaping that evolution. As someone who has been actively involved in Cardano’s ecosystem and the operator of SNAKE Stakepool, I’ve seen the immense potential of distributed networks to foster transparency, fairness, and innovation.\n\nBeing a DRep would allow me to use my experience to bridge the gap between technical development and community needs. I want to help Cardano thrive as a self-sustaining ecosystem, driven by its users, and create a governance model that other blockchains aspire to follow."
+    },
+    "objectives": {
+      "@value": "Hi, I’m Manuel, operator of SNAKE Stakepool on the Cardano network. My passion for technology, distributed networks, and cryptography led me to blockchain in 2017. After years in IT, focusing on system administration and coding, I discovered Cardano in 2019. Its peer-reviewed research and proof-of-stake protocol inspired me to launch SNAKE Pool. I’m dedicated to providing reliable, transparent staking services and contributing to Cardano's mission of decentralization and financial inclusivity.\n\nI actively participate in Cardano’s on-chain governance initiatives, supporting the evolution of a decentralized and self-sustaining ecosystem that empowers its community.\n"
+    },
+    "paymentAddress": {
+      "@value": "addr1q90aaa6hg7ksdj26zwcunsp623jj8nvmckugjhvm4wypgeteedq9rz3eqxlue7yx69r8rqs57jcuruu89yj4z74e2q9seqdyqr"
+    },
+    "qualifications": {
+      "@value": "25 years in IT. 12 of them as Business Intelligence Consultant for Big food company.\n"
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/adasnakepool"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Certificate Cardano Developer"
+        },
+        "uri": {
+          "@value": "https://www.credly.com/badges/68b7bce9-9c15-4af4-9fe0-058f608d1ff2"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Stakepool Telegram Channel"
+        },
+        "uri": {
+          "@value": "https://t.me/channel_adasnakepool"
+        }
+      }
+    ]
+  }
+}
